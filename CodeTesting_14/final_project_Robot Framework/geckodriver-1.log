@@ -1,0 +1,22 @@
+1717146210521	geckodriver	INFO	Listening on 127.0.0.1:62729
+1717146213697	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62730" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilevZ4uV7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1717146214191	Marionette	INFO	Marionette enabled
+1717146214259	Marionette	INFO	Listening on port 62737
+WebDriver BiDi listening on ws://127.0.0.1:62730
+Read port: 62737
+1717146214450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+DevTools listening on ws://127.0.0.1:62730/devtools/browser/581ebe4b-caff-4092-96a6-9ccbfeef55c6
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+JavaScript error: http://localhost:8000/FrontEnd/lib/easing/easing.min.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://localhost:8000/FrontEnd/lib/owlcarousel/owl.carousel.min.js, line 6: TypeError: a is undefined
+JavaScript error: http://localhost:8000/FrontEnd/lib/lightbox/js/lightbox.min.js, line 14: TypeError: a is not a function
+JavaScript error: http://localhost:8000/FrontEnd/mail/jqBootstrapValidation.min.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://localhost:8000/FrontEnd/mail/contact.js, line 1: ReferenceError: $ is not defined
+JavaScript error: http://localhost:8000/FrontEnd/js/main.js, line 101: ReferenceError: jQuery is not defined
+1717146223337	Marionette	INFO	Stopped listening on port 62737
+Dynamically enable window occlusion 1

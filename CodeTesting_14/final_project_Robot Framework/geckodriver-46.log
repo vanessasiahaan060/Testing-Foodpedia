@@ -1,0 +1,24 @@
+1717155968202	geckodriver	INFO	Listening on 127.0.0.1:54978
+1717155971318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54979" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileeDB1RO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1717155971727	Marionette	INFO	Marionette enabled
+1717155971790	Marionette	INFO	Listening on port 54986
+WebDriver BiDi listening on ws://127.0.0.1:54979
+Read port: 54986
+1717155971960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+DevTools listening on ws://127.0.0.1:54979/devtools/browser/89a86cbf-f79c-4a7b-a5f8-fccee7328e82
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1717156003404	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: http://localhost:8000/Admin_css/plugins/jquery/jquery.min.js, line 2: Script terminated by timeout at:
+set@http://localhost:8000/Admin_css/plugins/jquery/jquery.min.js:2:43929
+S.fn.extend@http://localhost:8000/Admin_css/plugins/jquery/jquery.min.js:2:2495
+simulate@http://localhost:8000/Admin_css/plugins/jquery/jquery.min.js:2:71964
+i@http://localhost:8000/Admin_css/plugins/jquery/jquery.min.js:2:72307
+
+1717156015186	Marionette	INFO	Stopped listening on port 54986
+Dynamically enable window occlusion 1

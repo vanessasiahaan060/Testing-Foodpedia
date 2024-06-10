@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.8.0 on win32)" generated="2024-05-31T18:54:04.162283" rpa="false" schemaversion="5">
+<suite id="s1" name="Menu" source="C:\Users\user\Downloads\PA-1 foodpedia\PA-1 foodpedia\final_project\menu.robot">
+<test id="s1-t1" name="Login and Create Post" line="15">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-05-31T18:54:04.416813" level="INFO">Opening browser 'Firefox' to base url 'http://localhost:8000/login'.</msg>
+<arg>${LOGIN_URL}</arg>
+<arg>Firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-05-31T18:54:04.416813" elapsed="7.256897"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-05-31T18:54:11.673710" elapsed="0.006061"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-31T18:54:11.679771" level="INFO">Typing text 'numerosada@gmail.com' into text field 'id=email'.</msg>
+<arg>id=email</arg>
+<arg>${USERNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-31T18:54:11.679771" elapsed="0.082803"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-31T18:54:11.764890" level="INFO">Typing text 'numerosada123' into text field 'id=password'.</msg>
+<arg>id=password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-31T18:54:11.762574" elapsed="0.025376"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-05-31T18:54:11.787950" level="INFO">Clicking button 'xpath=//button[text()='Login']'.</msg>
+<arg>xpath=//button[text()='Login']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-31T18:54:11.787950" elapsed="3.643916"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-31T18:54:18.442562" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-31T18:54:15.431866" elapsed="3.010696"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-05-31T18:54:18.510971" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-44.png"&gt;&lt;img src="selenium-screenshot-44.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-05-31T18:54:18.512056" level="FAIL">Page should have contained text 'Logged in successfully' but did not.</msg>
+<arg>Logged in successfully</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="FAIL" start="2024-05-31T18:54:18.442562" elapsed="0.073003">Page should have contained text 'Logged in successfully' but did not.</status>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<arg>${POST_CREATE_URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" start="2024-05-31T18:54:18.518672" elapsed="0.001004"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<arg>Post Page</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2024-05-31T18:54:18.519676" elapsed="0.001649"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>id=name</arg>
+<arg>${NAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-05-31T18:54:18.521325" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>id=description</arg>
+<arg>${DESCRIPTION}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-05-31T18:54:18.521325" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>id=price</arg>
+<arg>${PRICE}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-05-31T18:54:18.521325" elapsed="0.000000"/>
+</kw>
+<kw name="Choose File" owner="SeleniumLibrary">
+<arg>id=thumbnail</arg>
+<arg>/path/to/your/thumbnail.jpg</arg>
+<doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
+<status status="NOT RUN" start="2024-05-31T18:54:18.521325" elapsed="0.000000"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<arg>id=category</arg>
+<arg>${CATEGORY}</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="NOT RUN" start="2024-05-31T18:54:18.521325" elapsed="0.000000"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>xpath=//button[text()='Submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-05-31T18:54:18.521325" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-05-31T18:54:18.526853" elapsed="0.000000"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<arg>Post created successfully</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2024-05-31T18:54:18.526853" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-05-31T18:54:18.529306" elapsed="0.000000"/>
+</kw>
+<doc>Test case untuk login dan menambah post baru</doc>
+<status status="FAIL" start="2024-05-31T18:54:04.416813" elapsed="14.113210">Page should have contained text 'Logged in successfully' but did not.</status>
+</test>
+<status status="FAIL" start="2024-05-31T18:54:04.162283" elapsed="14.367740"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Menu">Menu</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,20 @@
+1717155819507	geckodriver	INFO	Listening on 127.0.0.1:54888
+1717155822626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54889" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilejdurkW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1717155823025	Marionette	INFO	Marionette enabled
+1717155823122	Marionette	INFO	Listening on port 54896
+Read port: 54896
+WebDriver BiDi listening on ws://127.0.0.1:54889
+1717155823197	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54889/devtools/browser/e146674b-6ac8-4f65-aeee-efd1f13e2f7c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1717155853433	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: http://localhost:8000/Admin_css/plugins/jquery/jquery.min.js, line 2: Script terminated by timeout at:
+S.Event@http://localhost:8000/Admin_css/plugins/jquery/jquery.min.js:2:44650
+fix@http://localhost:8000/Admin_css/plugins/jquery/jquery.min.js:2:44046
+i@http://localhost:8000/Admin_css/plugins/jquery/jquery.min.js:2:72335
+
+1717155937705	Marionette	INFO	Stopped listening on port 54896
+Dynamically enable window occlusion 1
